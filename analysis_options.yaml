@@ -1,0 +1,24 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    - directives_ordering
+    - comment_references
+    - unnecessary_lambdas
+    - avoid_returning_this
+    - avoid_returning_null
+    - prefer_mixin
+    - avoid_positional_boolean_parameters
+    - avoid_equals_and_hash_code_on_mutable_classes
+    - unnecessary_statements
+    - always_put_control_body_on_new_line
+    - always_put_required_named_parameters_first
+    - cancel_subscriptions
+    - prefer_final_locals
+    - prefer_asserts_in_initializer_lists
+    - sort_constructors_first
+    - sort_unnamed_constructors_first
+    - test_types_in_equals
+    - unnecessary_null_aware_assignments
+    - unnecessary_parenthesis
+    - unsafe_html
